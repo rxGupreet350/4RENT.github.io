@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us 4RENT!</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="../Images/4RENT!.png" alt="logo">
+
+        </div>
+        <ul>
+          <li><a href="PROJECT.html">Home</a></li>
+          <li><a href="CARS.html">Cars</a></li>
+          <li class="NavDesign"><a href="CONTACT.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+      <div class ="A">
+    <div class ="overlay">
+      <form>
+        <h1>Contact us</h1>
+        <label for="name">Name:</label>
+        <input type="text" id ="name" placeholder="Your name...">
+        <small class="info"></small>
+
+        <label for="email">Email:</label>
+        <input type="text" id ="email" placeholder="Your email...">
+        <small class="info"></small>
+
+        <label for='phonenumber'>Phone Number:</label>
+        <input type="number" id ="pNumber" placeholder="Your Phone Number...">
+        <small class="info"></small>
+
+        <label for="message">Message:</label>
+        <textarea id ="message" placeholder="Your message" rows="6"></textarea>
+        <small class="info"></small>
+
+        <div class = "center">
+          <input type="submit"  name="" value="Send Message" onclick="newDel()">
+        </div>
+    </div>
+    <div class = "rightInfo">
+      <h1>You can contact us through</h1></br>
+      <h2>Email</h2>
+      <p>4RENT!@hotmail.com</p></br>
+      <h2>PhoneNumber</h2>
+      <p>+91 9876543210</p></br>
+      <h2>loction</h2>
+      <p>10A, G.T Road</br>
+         Model Town</br>
+         Phagwara</br>
+         Punjab 144401</p>
+       </div>
+     </div>
+     <footer>
+   <p>CREATED BY GURPREET SINGH AND AKSHAY ADHIKARO BHAGAT</p>
+   </footer>
+ </body>
+ </html>
+    <script type="text/javascript">
+    function newDel() {
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+  var number = document.getElementById('pNumber').value;
+
+  if(name == "")
+  {
+    alert("Please enter valid name");
+  }
+  else if(number == "")
+  {
+    alert("Please enter valid number");
+  }
+  else{
+    window.open = 'R.html';
+  }
+}
+    </script>
+
+  </body>
+</html>

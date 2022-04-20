@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothis;
+}
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../Images/CGROUND!.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+ul{
+float:right;
+list-style-type: none;
+}
+ul li{
+display:inline-block;
+margin-top: 25px;
+}
+ul li a{
+text-decoration: none;
+color: #000;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+ul li.NavDesign a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+float:left;
+width:150px;
+height: auto;
+}
+.main{
+max-width: 1200px;
+margin : auto;
+}
+.title{
+color: #fff;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+  font-size: 35px;
+}
+.button{
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.btn{
+border:1px solid #fff;
+padding: 10px 30px;
+color: #fff;
+text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover{
+background-color: #fff;
+color: #000;
+}
+.carImagesL img{
+    width: 25%;
+    height: auto;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    float: left;
+}
+
+.dropdown{
+padding:620px 625px 0px 660px;
+top: 90%;
+left: 300%;
+width:150px;
+}
+.mContent{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../Images/CARS2.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.textL{
+  padding-top: 40px;
+  color: white;
+  text-align: justify;
+  padding-bottom: 70px;
+}
+.carImagesR img{
+    width: 25%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: right;
+}
+.textR{
+  padding-top: 30px;
+  padding-left: 570px;
+  color: white;
+  text-align: right;
+  padding-bottom: ;
+}
+body{
+width:100%;
+overflow-x:hidden;
+}
+footer{
+
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  height: 5%;
+}
+footer p{
+  padding-top:5px;
+}
